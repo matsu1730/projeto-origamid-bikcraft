@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css">
+
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
@@ -30,20 +32,20 @@
 
     <section class="introducao-interna interna-sobre">
         <div class="container">
-            <h1>Sobre</h1>
-            <p>
+            <h1 data-anime="400" class="fadeInDown">Sobre</h1>
+            <p data-anime="800" class="fadeInDown">
                 Conheça mais sobre a Bikcraft
             </p>
         </div>
     </section>
 
     <section class="missao-sobre container">
-        <div class="grid-10">
+        <div class="grid-10 fadeInDown" data-anime="1200">
             <h2 class="subtitulo-interno">História, Missão e Visão</h2>
             <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
             <p>Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.</p>
         </div>
-        <div class="grid-6">
+        <div class="grid-6 fadeInDown" data-anime="1200">
             <h2 class="subtitulo-interno">Valores</h2>
             <ul>
                 <li>- Qualidade no processo com</li>
@@ -52,7 +54,7 @@
                 <li>- Natureza com sustentabilidade</li>
             </ul>
         </div>
-        <div class="foto-equipe grid-16">
+        <div class="foto-equipe grid-16" data-anime="1600">
             <img src="./img/equipe-bikcraft.jpg" alt="Equipe Bikcraft">
         </div>
     </section>
@@ -125,5 +127,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
