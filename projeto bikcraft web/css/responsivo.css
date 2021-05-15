@@ -168,4 +168,11 @@
 		padding-right: 0;
 	}
 
+	/* Contatos */
+
+	.contato-form {
+		padding-right: 0;
+		margin-bottom: 40px;
+	}
+
 }
